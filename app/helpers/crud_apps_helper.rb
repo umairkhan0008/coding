@@ -1,0 +1,2 @@
+module CrudAppsHelper
+end

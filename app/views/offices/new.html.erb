@@ -1,0 +1,8 @@
+<h1>Offices new</h1>
+<h3>Create a Office</h3>
+<%= form_for @office do |form| %>
+  <%= form.text_field :name, placeholder: "name" %>
+  <%= form.text_field :post, placeholder: "post" %>
+  <%= form.text_field :email, placeholder: "email" %>
+  <%= form.submit %>
+<% end %>
