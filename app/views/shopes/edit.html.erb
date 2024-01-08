@@ -1,0 +1,7 @@
+<h3>Update shope Details</h3>
+<%= form_with model: @shope do |form| %>
+  <%= form.text_field :product_name, placeholder: "product_name" %>
+  <%= form.text_field :size, placeholder: "size" %>
+  <%= form.text_field :price, placeholder: "price" %>
+  <%= form.submit %>
+<% end %>

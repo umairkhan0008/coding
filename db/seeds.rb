@@ -13,3 +13,6 @@ Office.create(name: "Kabir", post: "AD", email: "kb65464564@gmail.com")
 Office.create(name: "Larasib", post: "DD", email: "aki65464564@gmail.com")
 Office.create(name: "Arslan", post: "CEO", email: "ad65464564@gmail.com")
 Office.create(name: "Waleed", post: "HR", email: "wq65464564@gmail.com")
+
+
+Student.create(name: "Usman", father_name: "Umair Khan", phone_no: "03105642141", email: "uk4248609@gmail.com")

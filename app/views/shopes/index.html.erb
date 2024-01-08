@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @shopes.each do |shope|%>
+      <tr>
+        <th scope="row">1</th>
+        <td><%= shope.product_name%></td>
+        <td><%=  link_to "Edit",  edit_shope_path(shope.id)%></td>
+        <td><%=  link_to "Show", shope_path(shope.id)%></td>
+        <td><%=  button_to  'Delete', shope_path(shope), method: 'delete' %></td>
+    <% end%>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<h1>Shopes New</h1>
+<%= form_for @student do |std| %>
+  <%= form.text_field :name, placeholder: "name" %>
+  <%= form.text_field :father_name, placeholder: "father_name" %>
+  <%= form.text_field :phone_no, placeholder: "phone_no" %>
+  <%= form.text_field :email, placeholder: "email" %>
+  <%= form.submit %>
+<% end %>

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-
-   
+  
+  resources :shopes
+ resources :students   
  resources :offices
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
