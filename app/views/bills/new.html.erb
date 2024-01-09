@@ -1,0 +1,7 @@
+<h1>Bill New</h1>
+<%= form_for @bill do |form| %>
+  <%= form.text_field :product, placeholder: "product" %>
+  <%= form.text_field :price, placeholder: "price" %>
+  <%= form.text_field :total, placeholder: "total" %>
+  <%= form.submit %>
+<% end %>

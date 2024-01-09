@@ -1,0 +1,6 @@
+<h1>Bikes New</h1>
+<%= form_for @bike do |std| %>
+  <%= std.text_field :make, placeholder: "make" %>
+  <%= std.text_field :year, placeholder: "year" %>
+  <%= std.submit %>
+<% end %>

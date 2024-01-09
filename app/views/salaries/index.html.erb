@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Labor</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @salaries.each do |x|%>
+      <tr>
+        <th scope="row">1</th>
+        <td><%= x.labor%></td>
+        <td><%=  link_to "Edit",  edit_salary_path(x.id)%></td>
+        <td><%=  link_to "Show", salary_path(x.id)%></td>
+        <td><%=  link_to  'Delete', salary_path(x), method: 'delete' %></td>
+    <% end%>
+  </tbody>
+</table>

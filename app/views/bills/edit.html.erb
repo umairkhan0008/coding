@@ -1,0 +1,7 @@
+<h3>Update Bills Details</h3>
+<%= form_with model: @bill do |form| %>
+  <%= form.text_field :product, placeholder: "product" %>
+  <%= form.text_field :price, placeholder: "price" %>
+  <%= form.text_field :total, placeholder: "total" %>
+  <%= form.submit %>
+<% end %>

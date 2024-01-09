@@ -1,0 +1,6 @@
+<h3>Update Bikes Details</h3>
+<%= form_with model: @bike do |form| %>
+  <%= form.text_field :make, placeholder: "make" %>
+  <%= form.text_field :year, placeholder: "year" %>
+  <%= form.submit %>
+<% end %>

@@ -1,0 +1,7 @@
+<h3>Update Products Details</h3>
+<%= form_with model: @product do |form| %>
+  <%= form.text_field :weight, placeholder: "KG" %>
+  <%= form.text_field :order_code, placeholder: "code" %>
+  <%= form.text_field :item_type, placeholder: "type" %>
+  <%= form.submit %>
+<% end %>

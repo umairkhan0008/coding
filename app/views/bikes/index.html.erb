@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Make</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @bikes.each do |kk|%>
+      <tr>
+        <th scope="row">1</th>
+        <td><%=  kk.make %></td>
+        <td><%=  link_to "Edit",  edit_bike_path(kk.id)%></td>
+        <td><%=  link_to "Show", bike_path(kk.id)%></td>
+        <td><%=  button_to  'Delete', bike_path(kk), method: 'delete' %></td>
+    <% end%>
+  </tbody>
+</table>
+
