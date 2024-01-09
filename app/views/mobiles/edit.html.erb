@@ -1,0 +1,7 @@
+<h3>Update Mobiles Details</h3>
+<%= form_with model: @mobile do |form| %>
+  <%= form.text_field :company, placeholder: "company" %>
+  <%= form.text_field :model, placeholder: "model" %>
+  <%= form.text_field :stroage, placeholder: "stroage" %>
+  <%= form.submit %>
+<% end %>

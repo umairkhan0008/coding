@@ -1,0 +1,7 @@
+<h1>Mobiles New</h1>
+<%= form_for @mobile do |std| %>
+  <%= std.text_field :company, placeholder: "company" %>
+  <%= std.text_field :model, placeholder: "model" %>
+  <%= std.text_field :stroage , placeholder: "stroage" %>
+  <%= std.submit %>
+<% end %>

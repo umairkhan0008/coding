@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company: MyString
+  model: MyString
+  stroage: MyString
+
+two:
+  company: MyString
+  model: MyString
+  stroage: MyString
