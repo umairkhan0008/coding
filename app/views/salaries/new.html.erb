@@ -1,2 +1,8 @@
-<h1>Salaries#new</h1>
-<p>Find me in app/views/salaries/new.html.erb</p>
+<h1>Salaries New</h1>
+<%= form_for @salaries do |x| %>
+  <%= form.text_field :labor, placeholder: "labor" %>
+  <%= form.text_field :group, placeholder: "group" %>
+  <%= form.text_field :monthly_salary, placeholder: "monthly_salary" %>
+  <%= form.text_field :qualification, placeholder: "qualification" %>
+  <%= form.submit %>
+<% end %>

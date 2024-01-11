@@ -1,2 +1,21 @@
-<h1>Salaries#show</h1>
-<p>Find me in app/views/salaries/show.html.erb</p>
+<h1>Salaries</h1>
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Labor</th>
+      <th scope="col">Group</th>
+      <th scope="col">Monthly_salary</th>
+      <th scope="col">Qualification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><%= @salary.labor %></td>
+      <td><%= @salary.group %></td>
+      <td><%= @salary.monthly_salary %></td>
+      <td><%= @salary.qualification %></td>
+    </tr>
+  </tbody>
+</table>
